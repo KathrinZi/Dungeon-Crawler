@@ -11,7 +11,7 @@ public class Game {
   logger.info("Game started!");
   Scanner scanner = new Scanner(System.in);
 
-  System.out.println("🎮 Welcome to Dungeon Adventure!");
+  System.out.println("🎮 Welcome to the Dungeon!");
   System.out.println("Are you a new adventurer? (yes/no)");
   if ("yes".equals(scanner.nextLine().toLowerCase())) {
    System.out.println("Brave adventurer, your journey begins! ⚔️");
